@@ -1,0 +1,45 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environments
+.env
+.env.*
+!.env.example
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Speech / audio cache
+*.wav
+*.mp3
+
+# Screenshots generated at runtime
+assets/screenshots/*
+!assets/screenshots/.gitkeep
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
