@@ -19,12 +19,49 @@
 
 ---
 
+## 🎥 Demo
+
+> 🚧 Demo video coming soon.
+
+This project demonstrates:
+
+- 🎙️ Wake-word activation
+- 🤖 AI-powered conversations
+- 🚀 Desktop automation
+- 🌐 Smart web navigation
+- 🖥️ Windows system control
+
+---
+
 ## 📋 Overview
 
 J.A.R.V.I.S. is a Python voice assistant for Windows that listens for a wake
 word ("jarvis"), then executes system commands or forwards open-ended
 questions to Claude for a natural, conversational reply. It's built as a
 single-file assistant that's easy to read, extend, and run locally.
+
+---
+
+## 📑 Table of Contents
+
+- [Overview](#-overview)
+- [Features](#-features)
+- [Architecture](#-architecture)
+- [Technologies Used](#-technologies-used)
+- [Requirements](#-requirements)
+- [Installation](#-installation)
+- [API Key Setup](#-api-key-setup)
+- [Running the Project](#-running-the-project)
+- [Example Commands](#-example-commands)
+- [Folder Structure](#-folder-structure)
+- [Screenshots](#-screenshots)
+- [Libraries Used](#-libraries-used)
+- [Future Improvements](#-future-improvements)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Author](#-author)
+
+---
 
 ## ✨ Features
 
@@ -58,17 +95,33 @@ single-file assistant that's easy to read, extend, and run locally.
 ## 🏗️ Architecture
 
 ```
- Microphone ──▶ speech_recognition ──▶ process(cmd)
-                                            │
-                        ┌───────────────────┼────────────────────┐
-                        ▼                   ▼                    ▼
-                Built-in handlers     Wikipedia lookup      Claude API (ask_ai)
-                (apps, system,        (with AI fallback)    for open-ended
-                 power, files, web)                          conversation
-                        │                   │                    │
-                        └───────────────────┴────────────────────┘
-                                            ▼
-                                      pyttsx3 (speak)
+                    +----------------------+
+                    |      Microphone      |
+                    +----------+-----------+
+                               |
+                               v
+                 +-----------------------------+
+                 |   Speech Recognition Engine  |
+                 +--------------+--------------+
+                                |
+                                v
+                     +----------------------+
+                     |   Command Processor  |
+                     +----------+-----------+
+                                |
+          +---------------------+----------------------+
+          |                     |                      |
+          v                     v                      v
++----------------+     +----------------+     +----------------+
+| System Control |     | Web Services   |     | Claude AI API  |
++----------------+     +----------------+     +----------------+
+          \                     |                     /
+           \____________________|____________________/
+                                |
+                                v
+                     +----------------------+
+                     | Text-to-Speech (TTS) |
+                     +----------------------+
 ```
 
 ## 🛠️ Technologies used
@@ -144,24 +197,41 @@ Full reference: [`docs/COMMANDS.md`](docs/COMMANDS.md)
 ## 📂 Folder structure
 
 ```
-jarvis-assistant/
+Jarvis-AI-Assistant/
+│
+├── .github/
+│   └── workflows/
+│       └── python.yml
+│
+├── assets/
+│   ├── banner.png
+│   └── screenshots/
+│       ├── boot.jpeg
+│       ├── activation.jpeg
+│       ├── command.jpeg
+│       └── response.jpeg
+│
+├── docs/
+│   ├── COMMANDS.md
+│   ├── FEATURES.md
+│   ├── INSTALLATION.md
+│   ├── PROJECT_STRUCTURE.md
+│   ├── PUBLISHING_KIT.md
+│   └── TROUBLESHOOTING.md
+│
+├── tests/
+│   └── test_jarvis.py
+│
 ├── jarvis.py
+├── README.md
 ├── requirements.txt
 ├── .env.example
 ├── .gitignore
 ├── LICENSE
-├── README.md
-├── SECURITY.md
-├── CONTRIBUTING.md
 ├── CHANGELOG.md
+├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
-├── assets/screenshots/
-└── docs/
-    ├── PROJECT_STRUCTURE.md
-    ├── FEATURES.md
-    ├── COMMANDS.md
-    ├── INSTALLATION.md
-    └── TROUBLESHOOTING.md
+└── SECURITY.md
 ```
 
 Details: [`docs/PROJECT_STRUCTURE.md`](docs/PROJECT_STRUCTURE.md)
