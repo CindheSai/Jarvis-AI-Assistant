@@ -157,11 +157,43 @@ Details: [`docs/PROJECT_STRUCTURE.md`](docs/PROJECT_STRUCTURE.md)
 
 ## 🖼️ Screenshots
 
-> Add screenshots or a short demo GIF of JARVIS running in your terminal here.
+### 1. Boot & Initialization
 
-| Boot | Command | AI reply |
-| --- | --- | --- |
-| _add image_ | _add image_ | _add image_ |
+J.A.R.V.I.S. starts, loads all required modules, and waits for the wake word.
+
+<p align="center">
+  <img src="assets/screenshots/boot.png" alt="Boot Screen" width="900">
+</p>
+
+---
+
+### 2. Wake Word Detection
+
+After hearing **"Jarvis"**, the assistant activates and waits for the next command.
+
+<p align="center">
+  <img src="assets/screenshots/activation.png" alt="Wake Word Detection" width="900">
+</p>
+
+---
+
+### 3. Voice Command Execution
+
+The assistant successfully executes the spoken command by launching Windows Notepad.
+
+<p align="center">
+  <img src="assets/screenshots/command.png" alt="Command Execution" width="900">
+</p>
+
+---
+
+### 4. AI Response
+
+Open-ended questions are processed and answered using the integrated AI model.
+
+<p align="center">
+  <img src="assets/screenshots/response.png" alt="AI Response" width="900">
+</p>
 
 ## 📚 Libraries used
 
