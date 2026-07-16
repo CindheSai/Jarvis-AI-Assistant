@@ -155,44 +155,34 @@ jarvis-assistant/
 
 Details: [`docs/PROJECT_STRUCTURE.md`](docs/PROJECT_STRUCTURE.md)
 
-## 🖼️ Screenshots
+# 🖼️ Screenshots
 
-### 1. Boot & Initialization
+## 🚀 Boot & Initialization
 
-J.A.R.V.I.S. starts, loads all required modules, and waits for the wake word.
+J.A.R.V.I.S. starts successfully and waits for the wake word.
 
 <p align="center">
-  <img src="boot.png" alt="Boot Screen" width="900">
+<img src="boot.jpeg" width="900">
 </p>
 
 ---
 
-### 2. Wake Word Detection
+## 🎙️ Wake Word Detection
 
-After hearing **"Jarvis"**, the assistant activates and waits for the next command.
+The assistant recognizes **"Jarvis"** and activates.
 
 <p align="center">
-  <img src="activation.png" alt="Wake Word Detection" width="900">
+<img src="activation.jpeg" width="900">
 </p>
 
 ---
 
-### 3. Voice Command Execution
+## 💻 Command Execution
 
-The assistant successfully executes the spoken command by launching Windows Notepad.
-
-<p align="center">
-  <img src="command.png" alt="Command Execution" width="900">
-</p>
-
----
-
-### 4. AI Response
-
-Open-ended questions are processed and answered using the integrated AI model.
+J.A.R.V.I.S. launches Windows Notepad using voice commands.
 
 <p align="center">
-  <img src="response.png" alt="AI Response" width="900">
+<img src="command.jpeg" width="900">
 </p>
 
 ## 📚 Libraries used
