@@ -1,7 +1,7 @@
 # 🤖 J.A.R.V.I.S. — AI Voice Assistant
 
 <p align="center">
-  <img src="6c874053-44b8-4304-803c-84b4696e1066-cover.png" alt="J.A.R.V.I.S. Banner" width="100%">
+  <img src="banner.png" alt="J.A.R.V.I.S. Banner" width="100%">
 </p>
 
 <p align="center">
