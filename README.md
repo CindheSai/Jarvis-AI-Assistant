@@ -277,29 +277,65 @@ Details: [`docs/PROJECT_STRUCTURE.md`](docs/PROJECT_STRUCTURE.md)
 `anthropic` · `SpeechRecognition` · `pyttsx3` · `pyautogui` · `webbrowser` ·
 `wikipedia` · `psutil` · `PyAudio` · `winshell` (Windows only)
 
-## 🚧 Future improvements
+## 🚀 Roadmap
 
-- Cross-platform support (macOS/Linux equivalents for system/power controls)
-- Wake-word detection via an offline model (e.g. Porcupine) instead of
-  continuous cloud-based listening
-- Persistent conversation memory across sessions
-- Plugin-style architecture for adding new commands without editing `process()`
-- Local speech-to-text option for offline use
-- Configurable voice, wake word, and hotkeys via a settings file
+- [ ] Cross-platform support (Linux & macOS)
+- [ ] Offline speech recognition
+- [ ] Graphical desktop interface
+- [ ] Plugin-based command system
+- [ ] Multi-language voice support
+- [ ] Conversation memory
+- [ ] Smart home integration
+- [ ] AI vision capabilities
+- [ ] Cloud synchronization
+- [ ] Mobile companion application
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please read [`CONTRIBUTING.md`](CONTRIBUTING.md)
 for the workflow, coding standards, and issue-reporting guidelines.
 
+## 📊 Project Statistics
+
+| Category | Details |
+|-----------|---------|
+| Language | Python |
+| Platform | Windows 10/11 |
+| Python Version | 3.11+ |
+| AI Model | Anthropic Claude |
+| Speech Recognition | Google Speech API |
+| Text-to-Speech | pyttsx3 |
+| License | MIT |
+| Status | Active Development |
+
 ## 📄 License
 
 Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
-## 👤 Author
+## 👨‍💻 Author
 
-**Cindhe Sai Mukesh Rao**
+### Cindhe Sai Mukesh Rao
+
+Aspiring AI & Machine Learning Engineer passionate about building intelligent software, AI-powered automation tools, and real-world Python applications.
+
+### Connect with Me
+
+- 💼 LinkedIn: https://www.linkedin.com/in/cindhe-sai-mukesh-rao-9a57a53ba/
+- 🌐 Portfolio: https://saimukesh.carrd.co/
+- 💻 GitHub: https://github.com/CindheSai
+- 📧 Email: saimukeshraocindhe@gmail.com
+
+> Feel free to connect, collaborate, or provide feedback on this project.
+---
 
 ---
 
-<p align="center">Made with ⚡ and a bit of Stark-level ambition.</p>
+<p align="center">
+
+⭐ If you found this project useful, consider giving it a star.
+
+Built with ❤️ using Python, Speech Recognition, and Anthropic Claude AI.
+
+© 2026 Cindhe Sai Mukesh Rao
+
+</p>
