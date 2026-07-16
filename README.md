@@ -236,35 +236,41 @@ Jarvis-AI-Assistant/
 
 Details: [`docs/PROJECT_STRUCTURE.md`](docs/PROJECT_STRUCTURE.md)
 
-# 🖼️ Screenshots
+---
 
-## 🚀 Boot & Initialization
+## 📸 Screenshots
 
-J.A.R.V.I.S. starts successfully and waits for the wake word.
+### 🚀 Application Startup
 
 <p align="center">
-<img src="assets/screenshots/boot.jpeg" width="900">
+  <img src="assets/screenshots/boot.jpeg" width="100%">
 </p>
 
 ---
 
-## 🎙️ Wake Word Detection
-
-The assistant recognizes **"Jarvis"** and activates.
+### 🎙️ Wake Word Detection
 
 <p align="center">
-<img src="assets/screenshots/activation.jpeg" width="900">
+  <img src="assets/screenshots/activation.jpeg" width="100%">
 </p>
 
 ---
 
-## 💻 Command Execution
-
-J.A.R.V.I.S. launches Windows Notepad using voice commands.
+### 💬 Voice Command
 
 <p align="center">
-<img src="assets/screenshots/command.jpeg" width="900">
+  <img src="assets/screenshots/command.jpeg" width="100%">
 </p>
+
+---
+
+### 🤖 AI Response
+
+<p align="center">
+  <img src="assets/screenshots/response.jpeg" width="100%">
+</p>
+
+---
 
 ## 📚 Libraries used
 
