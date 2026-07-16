@@ -1,7 +1,7 @@
 # 🤖 J.A.R.V.I.S. — AI Voice Assistant
 
 <p align="center">
-  <img src="banner.png" alt="J.A.R.V.I.S. Banner" width="100%">
+  <img src="assets/banner.png" alt="J.A.R.V.I.S. Banner" width="100%">
 </p>
 
 <p align="center">
@@ -28,21 +28,32 @@ single-file assistant that's easy to read, extend, and run locally.
 
 ## ✨ Features
 
-| Category | Examples |
-| --- | --- |
-| 🗣️ Voice control | Wake-word activation, natural spoken commands |
-| 🧠 AI conversation | Claude-powered answers for anything outside built-in commands |
-| 🚀 App launcher | Notepad, Chrome, VS Code, Spotify, and more |
-| 🌐 Web shortcuts | YouTube, GitHub, Gmail, Netflix, LinkedIn, and more |
-| 🔍 Search | Google search, YouTube search, Wikipedia lookups |
-| 🖥️ System control | Volume, CPU/RAM/disk info, screenshots, lock screen |
-| ⚡ Power control | Shutdown, restart, sleep, sign out |
-| 📁 File management | Create files, open common folders |
-| ⌨️ Typing & clipboard | Type text, copy, paste, undo, select all |
-| 🪟 Window control | Minimize, maximize, close, switch windows |
+<div align="center">
 
-See [`docs/FEATURES.md`](docs/FEATURES.md) for full details and
-[`docs/COMMANDS.md`](docs/COMMANDS.md) for every supported phrase.
+| Feature | Description |
+|:--------:|:------------|
+| 🗣️ **Voice Recognition** | Wake-word activation with natural voice commands |
+| 🧠 **AI Assistant** | Intelligent conversations powered by Anthropic Claude API |
+| 🚀 **Application Launcher** | Launch Notepad, Chrome, VS Code, Spotify, Calculator, and more |
+| 🌐 **Web Navigation** | Open YouTube, GitHub, Gmail, LinkedIn, Netflix, and other websites instantly |
+| 🔍 **Smart Search** | Google Search, YouTube Search, and Wikipedia integration |
+| 🖥️ **System Monitoring** | CPU, RAM, Disk Usage, Battery Status, and System Information |
+| ⚡ **Power Management** | Shutdown, Restart, Sleep, Lock Screen, and Sign Out |
+| 📁 **File Operations** | Create files, open folders, manage directories |
+| ⌨️ **Keyboard Automation** | Copy, Paste, Undo, Select All, and automatic typing |
+| 🪟 **Window Management** | Minimize, Maximize, Restore, Close, and Switch Windows |
+| 📸 **Screenshot Capture** | Capture and save desktop screenshots instantly |
+| 🔊 **Audio Control** | Increase, decrease, mute, and unmute system volume |
+
+</div>
+
+📖 **Detailed Documentation**
+
+- 📘 [Features Guide](docs/FEATURES.md)
+- 🎙️ [Supported Voice Commands](docs/COMMANDS.md)
+- ⚙️ [Installation Guide](docs/INSTALLATION.md)
+- 📂 [Project Structure](docs/PROJECT_STRUCTURE.md)
+- 🛠️ [Troubleshooting](docs/TROUBLESHOOTING.md)
 
 ## 🏗️ Architecture
 
@@ -162,7 +173,7 @@ Details: [`docs/PROJECT_STRUCTURE.md`](docs/PROJECT_STRUCTURE.md)
 J.A.R.V.I.S. starts successfully and waits for the wake word.
 
 <p align="center">
-<img src="boot.jpeg" width="900">
+<img src="assets/screenshots/boot.jpeg" width="900">
 </p>
 
 ---
@@ -172,7 +183,7 @@ J.A.R.V.I.S. starts successfully and waits for the wake word.
 The assistant recognizes **"Jarvis"** and activates.
 
 <p align="center">
-<img src="activation.jpeg" width="900">
+<img src="assets/screenshots/activation.jpeg" width="900">
 </p>
 
 ---
@@ -182,7 +193,7 @@ The assistant recognizes **"Jarvis"** and activates.
 J.A.R.V.I.S. launches Windows Notepad using voice commands.
 
 <p align="center">
-<img src="command.jpeg" width="900">
+<img src="assets/screenshots/command.jpeg" width="900">
 </p>
 
 ## 📚 Libraries used
